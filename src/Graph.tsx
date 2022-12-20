@@ -39,6 +39,7 @@ class Graph extends Component<IProps, {}> {
         if (this.table) {
             // Load the `table` in the `<perspective-viewer>` DOM reference.
             elem.load(this.table);
+            elem.load(this.table);
             elem.setAttribute('view', 'y_line');
             elem.setAttribute('row-pivots', '["timestamp"]');
             elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
